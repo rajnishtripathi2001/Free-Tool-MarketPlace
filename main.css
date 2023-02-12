@@ -61,11 +61,10 @@ img{
 }
 
 .footer{
-    /*
     position:fixed;
     left: 0;
     bottom: 0;
-    width: 100%; */
+    width: 100%; 
     background-color: black;
     color: white;
     font-size: larger;
@@ -97,12 +96,12 @@ img{
     }
 
     .footer{
-        background-color: black;
-        color: white;
-        font-size: larger;
-        font-family: 'Courier New', Courier, monospace;
-        text-align: center;
-        
+        /*
+        position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%; */
+
     }
 
 }
