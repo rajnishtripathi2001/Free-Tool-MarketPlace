@@ -61,8 +61,7 @@ img{
 }
 
 .footer{
-    position: fixed;
-    bottom: 0;
+    
     width: 100%; 
     height: auto;
     background-color: black;
@@ -93,7 +92,7 @@ img{
     }
 
     .footer{
-        position:unset;
+        position:static;
         bottom: 0;
         width: 100%; 
         height: auto;
