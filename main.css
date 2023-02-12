@@ -60,7 +60,11 @@ img{
     background-color: rgb(12, 194, 60);
 }
 
-footer{
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     color: white;
     font-size: larger;
