@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 75%;
-    margin: 0 0 0 12.5%;
+    margin: 0 0 10px 12.5%;
     text-align: center;
 }
 
@@ -61,15 +61,12 @@ img{
 }
 
 .footer{
-    position:fixed;
-    left: 0;
+    position: fixed;
     bottom: 0;
     width: 100%; 
+    height: auto;
     background-color: black;
-    color: white;
-    font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    color: #ffffff;
     
 }
 
@@ -96,12 +93,13 @@ img{
     }
 
     .footer{
-        /*
-        position:fixed;
-        left: 0;
+        position:unset;
         bottom: 0;
-        width: 100%; */
-
+        width: 100%; 
+        height: auto;
+        background-color: black;
+        color: #ffffff;
+        
     }
 
 }
