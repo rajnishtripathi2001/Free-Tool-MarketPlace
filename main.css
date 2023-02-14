@@ -79,8 +79,7 @@ img{
 
 .col{
     width: 20%;
-    margin: 20px;
-    
+    margin: 20px;    
 }
 
 @media only screen and (max-width: 770px) {
@@ -97,8 +96,6 @@ img{
         height: auto;
         background-color: black;
         color: #ffffff;
-        
     }
-
 }
 
