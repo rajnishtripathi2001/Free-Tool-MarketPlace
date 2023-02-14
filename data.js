@@ -36,17 +36,18 @@ const data = [
 data.forEach((el) => {
   const div = document.createElement("div");
   div.className = "card grid-item";
-  div.innerHTML = `<div class="image-container">
-           <img src=${el.thumbnail} alt="imka" />
-          </div>
-          <div class="bottom-container">
-          <p>${el.text}</p>
-          <a href=${el.download} download="file-name">
-            <button type="button" class="btn">
-              <i class="fa fa-download"></i><b> Download</b>
-            </button>
-          </a>
-        </div>`;
+  div.innerHTML = `
+    <div class="image-container">
+      <img src=${el.thumbnail} alt="imka" />
+    </div>
+    <div class="bottom-container">
+      <p>${el.text}</p>
+      <a href=${el.download} download="file-name">
+        <button type="button" class="btn">
+          <i class="fa fa-download"></i><b> Download</b>
+        </button>
+      </a>
+    </div>`;
   container.appendChild(div);
   console.log(el);
 });
